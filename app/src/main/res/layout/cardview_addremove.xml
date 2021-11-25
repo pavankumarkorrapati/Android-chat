@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="96dp"
+    app:cardCornerRadius="12dp">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/friendAddRemove_profileImg"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#E1D7D7"
+        android:src="@drawable/ic_baseline_person_24"
+        android:scaleType="centerCrop"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/friendAddRemove_userName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="UserName"
+            android:textAlignment="center"
+            android:fontFamily="@font/advent_pro_semibold"
+            android:textSize="22sp"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/friendAddRemove_acceptBtn"
+            android:layout_width="100dp"
+            android:backgroundTint="#30D80A"
+            android:layout_height="wrap_content"
+            android:text="Accept"
+            android:textSize="12sp"/>
+
+        <Button
+            android:id="@+id/friendAddRemove_rejectBtn"
+            android:layout_width="100dp"
+            android:layout_marginStart="90dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#DD0D0D"
+            android:text="Reject"
+            android:textSize="12sp"/>
+
+
+</LinearLayout>
+
+        <TextView
+            android:id="@+id/friendAddRemove_sentOn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="sent-on:04/10/2021"
+            android:fontFamily="@font/advent_pro_semibold"
+            android:layout_marginTop="10dp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">hello world.1</string>
+    <string name="hello_world">Hello world</string>
+    <string name="login">Login</string>
+    <string name="title_activity_chat_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="home">Home</string>
+    <string name="new_user_click_here_to_register">New user? Click here to Register</string>
+    <string name="enter_your_password">Enter your Password</string>
+    <string name="login_password">Login Password</string>
+    <string name="enter_your_email_id">Enter your Email ID</string>
+    <string name="sign_in_using_google">Sign-In using Google</string>
+    <string name="login_id">login_id</string>
+    <string name="register_user">Register user</string>
+    <string name="first_name">First Name:</string>
+    <string name="last_name">Last Name:</string>
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="email">Email:</string>
+    <string name="password">Password</string>
+    <string name="already_registered_login">Already Registered? Login</string>
+    <string name="register">Register</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="todo">TODO</string>
+    <string name="add">Add</string>
+    <string name="pavan_kumar">Pavan kumar</string>
+    <string name="sssssssssssssssssssssssssssssssssssssssss">sssssssssssssssssssssssssssssssssssssssss...</string>
+</resources>
